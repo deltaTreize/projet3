@@ -43,7 +43,7 @@
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre-ville ou en pleine nature</p>
           </div>
-          <div class="searchBar">
+          <form class="searchBar">
             <div class="svgbox">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,11 +56,22 @@
               </svg>
             </div>
             <input id="ville" value="Marseille, France" />
-            <button><svg id="svgloupe" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16.7688 14.6976L13.4582 11.3876C13.3088 11.2382 13.1062 11.1552 12.8937 11.1552H12.3525C13.2689 9.9832 13.8135 8.50913 13.8135 6.90558C13.8135 3.09091 10.7221 0 6.90676 0C3.09144 0 0 3.09091 0 6.90558C0 10.7202 3.09144 13.8112 6.90676 13.8112C8.51058 13.8112 9.98491 13.2667 11.1571 12.3504V12.8915C11.1571 13.104 11.2401 13.3065 11.3895 13.4559L14.7001 16.7659C15.0122 17.078 15.517 17.078 15.8258 16.7659L16.7655 15.8264C17.0776 15.5143 17.0776 15.0097 16.7688 14.6976ZM6.90676 11.1552C4.55912 11.1552 2.65644 9.25613 2.65644 6.90558C2.65644 4.55834 4.5558 2.65599 6.90676 2.65599C9.25439 2.65599 11.1571 4.55502 11.1571 6.90558C11.1571 9.25281 9.25771 11.1552 6.90676 11.1552Z" fill="white"/>
-              </svg>Rechercher
-              </button>
-          </div>
+            <button>
+              <svg
+                id="svgloupe"
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.7688 14.6976L13.4582 11.3876C13.3088 11.2382 13.1062 11.1552 12.8937 11.1552H12.3525C13.2689 9.9832 13.8135 8.50913 13.8135 6.90558C13.8135 3.09091 10.7221 0 6.90676 0C3.09144 0 0 3.09091 0 6.90558C0 10.7202 3.09144 13.8112 6.90676 13.8112C8.51058 13.8112 9.98491 13.2667 11.1571 12.3504V12.8915C11.1571 13.104 11.2401 13.3065 11.3895 13.4559L14.7001 16.7659C15.0122 17.078 15.517 17.078 15.8258 16.7659L16.7655 15.8264C17.0776 15.5143 17.0776 15.0097 16.7688 14.6976ZM6.90676 11.1552C4.55912 11.1552 2.65644 9.25613 2.65644 6.90558C2.65644 4.55834 4.5558 2.65599 6.90676 2.65599C9.25439 2.65599 11.1571 4.55502 11.1571 6.90558C11.1571 9.25281 9.25771 11.1552 6.90676 11.1552Z"
+                  fill="white"
+                /></svg
+              >Rechercher
+            </button>
+          </form>
           <div class="filterBar">
             <h3>Filtres</h3>
             <div class="btnfilter">
@@ -80,7 +91,7 @@
                 Romantique
               </button>
               <button id="Nos-pepites">
-                <i class="fa-sharp fa-solid fa-fire" style="color: #0065fc;"></i>
+                <i class="fa-sharp fa-solid fa-fire" style="color: #0065fc"></i>
                 Nos pépites
               </button>
             </div>
@@ -354,22 +365,30 @@
         <div class="activity" id="activity">
           <h3>Acitivités à Marseille</h3>
           <div class="activity-cards">
-            <div class="activity-card">
-              <img src="/images/activites/reno-laithienne.jpg" alt="" />
-              <p>Vieux-Port</p>
-            </div>
-            <div class="activity-card">
-              <img src="/images/activites/paul-hermann.jpg" alt="" />
-              <p>Fort de Pomègues</p>
-            </div>
-            <div class="activity-card">
-              <img src="/images/activites/kilyan-sockalingum.jpg" alt="" />
-              <p>Parc national des Calanques</p>
-            </div>
-            <div class="activity-card">
-              <img src="/images/activites/florian-wehde.jpg" alt="" />
-              <p>Notre-Dame-de-la-Garde</p>
-            </div>
+            <a href="">
+              <div class="activity-card">
+                <img src="/images/activites/reno-laithienne.jpg" alt="" />
+                <p>Vieux-Port</p>
+              </div>
+            </a>
+            <a href="">
+              <div class="activity-card">
+                <img src="/images/activites/paul-hermann.jpg" alt="" />
+                <p>Fort de Pomègues</p>
+              </div>
+            </a>
+            <a href="">
+              <div class="activity-card">
+                <img src="/images/activites/kilyan-sockalingum.jpg" alt="" />
+                <p>Parc national des Calanques</p>
+              </div>
+            </a>
+            <a href="">
+              <div class="activity-card">
+                <img src="/images/activites/florian-wehde.jpg" alt="" />
+                <p>Notre-Dame-de-la-Garde</p>
+              </div>
+            </a>
           </div>
         </div>
       </main>

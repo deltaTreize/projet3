@@ -356,7 +356,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.activity-card {
+.activity a {
   width: 23%;
   height: 27.438rem;
   border-radius: 1.25rem;
@@ -442,8 +442,7 @@ a {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
-  .activity-card {
-    /* width: 20%; */
+  .activity a {
     height: 16.875rem;
   }
   .activity-card img {
@@ -602,7 +601,7 @@ a {
     flex-direction: column;
     gap: 0.938rem;
   }
-  .activity-card{
+  .activity a{
     width: 100%;
   }
   #footer{
