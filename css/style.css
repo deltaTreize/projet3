@@ -610,3 +610,24 @@ a {
     height: auto;
   }
 }
+
+@media (max-width: 425px) {
+  .btn a{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  .filterBar{
+    width: 100%;
+  }
+  .btnfilter button{
+    width: 48%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+  }
+  #hebergements{
+    background-color: #fff;
+  }
+
+}
