@@ -129,7 +129,7 @@ header {
   font-weight: bold;
   font-size: 1.125rem;
 }
-#svgloupe {
+.fa-magnifying-glass {
   display: none;
 }
 .searchBar button {
@@ -522,7 +522,7 @@ a {
     color: transparent;
     flex-wrap: wrap;
   }
-  #svgloupe {
+  .fa-magnifying-glass {
     display: flex;
     color: #fff;
     width: 17px;
