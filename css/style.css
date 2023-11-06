@@ -130,7 +130,14 @@ header {
   font-size: 1.125rem;
 }
 .fa-magnifying-glass {
+  color: #ffffff;
   display: none;
+}
+.fa-location-dot{
+  color: #000000;
+}
+.fa-solid{
+  color: var(--main-color);
 }
 .searchBar button {
   display: flex;
