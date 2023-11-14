@@ -88,6 +88,9 @@ header {
   height: 3.063rem;
   width: 100%;
 }
+.searchBar-label{
+  display: flex;
+}
 .svgbox {
   display: flex;
   justify-content: center;
