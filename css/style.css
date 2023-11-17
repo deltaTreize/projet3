@@ -547,7 +547,7 @@ a {
         height: auto;
     }
 }
-@media (max-width: 588px) {
+@media (max-width: 600px) {
     .btnfilter button {
         font-size: 75%;
     }
@@ -664,7 +664,7 @@ a {
 }
 
 /* taille du taxte qui dépasse du bouton malgré la font-size en % */
-@media (max-width: 374px) {
+@media (max-width: 375px) {
     .btnfilter button {
         font-size: 90%;
         padding-left: 5px;
