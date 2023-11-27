@@ -146,7 +146,6 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 758px;
     gap: 15px;
     height: 50px;
 }
@@ -450,10 +449,6 @@ a {
     .activity-card img {
         height: 12.5rem;
     }
-}
-
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767px) {
     .main-container {
         flex-direction: column;
         padding: 0;
@@ -509,7 +504,7 @@ a {
 
     .filterBar button {
         gap: 4px;
-        font-size: 90%;
+        font-size: 16px;
     }
     .filterBar button i {
         display: flex;
@@ -543,25 +538,17 @@ a {
     }
 
     #footer {
+        box-sizing: border-box;
         flex-direction: column;
         height: auto;
     }
-}
-@media (max-width: 600px) {
-    .btnfilter button {
-        font-size: 75%;
-    }
-    .hebergements-cards .card-rating {
-        font-size: 14px;
-    }
-    .populaires-cards .card-rating {
-        font-size: 10px;
-    }
-    .activity-card p {
-        font-size: 77%;
+    #footer div{
+        box-sizing: border-box;
+        width: 100%;
     }
 }
-@media (max-width: 425px) {
+
+@media (max-width: 768px) {
     .header__menu {
         width: 100%;
         flex-direction: row;
@@ -598,6 +585,9 @@ a {
         width: 17px;
         height: 17px;
     }
+    #btn_rechercher span{
+        display: none;
+    }
 
     .btn a {
         display: flex;
@@ -612,14 +602,16 @@ a {
     }
     .btnfilter {
         flex-wrap: wrap;
+        gap: 1%;
     }
 
     .btnfilter button {
-        width: 45%;
-        padding-left: 19px;
+        width: 48%;
+        padding-left:2%;
         padding-right: 0;
         justify-content: start;
-        font-size: 100%;
+        font-size: 14px;
+        margin-bottom: 20px;
     }
     #hebergements {
         background-color: #fff;
@@ -660,13 +652,5 @@ a {
     }
     .hebergements-cards .card {
         width: 100%;
-    }
-}
-
-/* taille du taxte qui dépasse du bouton malgré la font-size en % */
-@media (max-width: 375px) {
-    .btnfilter button {
-        font-size: 90%;
-        padding-left: 5px;
     }
 }
