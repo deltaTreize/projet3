@@ -451,7 +451,6 @@ a {
     }
     .main-container {
         flex-direction: column;
-        padding: 0;
         gap: 1.875rem;
     }
     #logo {
@@ -537,18 +536,12 @@ a {
         font-size: 12px;
     }
 
-    #footer {
-        box-sizing: border-box;
-        flex-direction: column;
-        height: auto;
-    }
-    #footer div{
-        box-sizing: border-box;
-        width: 100%;
-    }
 }
 
 @media (max-width: 768px) {
+    .main-container{
+        padding: 0;
+    }
     .header__menu {
         width: 100%;
         flex-direction: row;
@@ -651,6 +644,15 @@ a {
         width: 100%;
     }
     .hebergements-cards .card {
+        width: 100%;
+    }
+    #footer {
+        box-sizing: border-box;
+        flex-direction: column;
+        height: auto;
+    }
+    #footer div{
+        box-sizing: border-box;
         width: 100%;
     }
 }
